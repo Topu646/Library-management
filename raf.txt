@@ -1,0 +1,27 @@
+<section class="c_section p_home__reach">
+<div class="container container--small">
+<h2 class="c_section__title">We just keep growing</h2>
+<p class="p_home__desc">
+Our global community and our course catalog get bigger every day. Check out our latest numbers as of December 2022. </p>
+</div>
+<div class="container p_home__metrics">
+<div class="p_home__metrics__metric">
+59M+ <span>Learners</span>
+</div>
+<div class="p_home__metrics__metric">
+70K+ <span>Instructors</span>
+</div>
+<div class="p_home__metrics__metric">
+200K+ <span>Courses</span>
+</div>
+<div class="p_home__metrics__metric">
+800M+ <span>Course enrollments</span>
+</div>
+<div class="p_home__metrics__metric">
+75 <span>Languages</span>
+</div>
+<div class="p_home__metrics__metric">
+14K+ <span>Enterprise customers </span>
+</div>
+</div>
+</section>
