@@ -9,23 +9,32 @@ body {
 }
 
 .navbar {
-  width: 100%;
-  height: 50px;
   background-color: rgb(44, 136, 136);
   padding-top: 10px;
   padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 #title {
-  float: left;
-  padding: 20px;
-  margin-top: -20px;
+  /* float: left; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  /* margin-top: -20px; */
   color: white;
 }
+
 #icon {
   width: 70px;
-  float: left;
+  /* float: left; */
   border-radius: 50%;
-  margin-top: -10px;
+  /* margin-top: -10px; */
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 a {
   text-decoration: none;
@@ -37,6 +46,10 @@ a {
   margin-top: -0.5rem;
   padding: 20px;
 
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-wrap: wrap;
   color: white;
 }
 .navlinks:hover {
