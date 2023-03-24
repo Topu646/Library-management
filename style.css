@@ -233,3 +233,11 @@ hr {
 .carda {
   font-size: medium;
 }
+
+.hrcard {
+  height: 1px;
+  border-width: 0;
+  color: rgb(12, 11, 11);
+  background-color: rgb(29, 27, 27);
+  margin-bottom: 5px;
+}
