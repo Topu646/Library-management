@@ -100,8 +100,9 @@ footer {
   z-index: -1;
 }
 .aboutcontainer {
-  background-color: #dcd8d8;
-  height: 100vh;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
 }
 
 #wel {
