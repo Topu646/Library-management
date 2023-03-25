@@ -99,12 +99,29 @@ footer {
   bottom: 0;
   z-index: -1;
 }
-.aboutcontainer {
+.aboutleft {
   text-align: justify;
   padding: 10px;
   margin: 10px;
+  width: 45%;
+  border-right: 2px dotted black;
 }
-
+.aboutcontainer {
+  display: flex;
+  justify-content: center;
+  background-color: #ccc;
+  flex-wrap: wrap;
+}
+.aboutright {
+  width: 45%;
+  padding: 10px;
+  margin: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 #wel {
   color: #fff;
   font-size: 3rem;
@@ -202,6 +219,7 @@ input[type="tel"] {
 }
 .card:hover {
   box-shadow: 10px 10px rgb(88, 88, 88);
+  -webkit-filter: brightness(70%);
 }
 
 #booktitleindex {
@@ -241,4 +259,22 @@ hr {
   color: rgb(12, 11, 11);
   background-color: rgb(29, 27, 27);
   margin-bottom: 5px;
+}
+#aboutushr {
+  height: 1px;
+
+  color: rgb(12, 11, 11);
+  background-color: rgb(29, 27, 27);
+}
+
+.links {
+  padding: 10px;
+}
+.aboutlinks:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 1s ease;
 }
