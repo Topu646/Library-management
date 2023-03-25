@@ -35,6 +35,15 @@ body {
   display: flex;
   justify-content: start;
   align-items: start;
+
+  transition: all 1s ease;
+}
+#icon:hover {
+  -webkit-filter: brightness(50%);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
 }
 a {
   text-decoration: none;
@@ -216,6 +225,8 @@ input[type="tel"] {
   box-shadow: 5px 5px rgb(88, 88, 88);
   margin: 10px;
   border-radius: 5%;
+
+  transition: all 1s ease;
 }
 .card:hover {
   box-shadow: 10px 10px rgb(88, 88, 88);
@@ -281,9 +292,6 @@ hr {
 
 #viewbooksindex:hover {
   -webkit-filter: brightness(220%);
-  -webkit-transition: all 0.5s ease;
-  -moz-transition: all 0.5s ease;
-  -o-transition: all 0.5s ease;
-  -ms-transition: all 0.5s ease;
+
   transition: all 0.5s ease;
 }
